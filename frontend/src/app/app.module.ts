@@ -30,6 +30,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 import { RedDirective } from './directives/red.directive';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { RedDirective } from './directives/red.directive';
     RedDirective,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
